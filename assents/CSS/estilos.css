@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*DIVISÃO INVISIVEL*/
+.invisivel{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.664);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 99;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.sair{
+    height: 32px;
+    width: 32px;
+    background-color: rgba(0, 0, 0, 0.027);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    left: 446px ;
+    top: 33px;
+    z-index: 1;
+}
+.sair:hover{
+    color: rgb(228, 113, 36);
+    background-color: white;
+}
+.solicite-servicos-externo{
+    height: 450px;
+    width: 480px;
+    content:'';
+    background-image: url(../imagens/backgrounds/componentes.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    font-family:'Montserrat';
+}
+.solicite-servicos-externo h1{
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+}
+.escolhas-servicos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select, .nome-do-solicitador input, #obs{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-family:'Montserrat';
+    margin-top: 20px;
+}
+option{
+    color: black;
+    font-size: 16px;
+    font-family:'Montserrat';
+    font-weight: 400;
+}
+.nome-do-solicitador input, #obs{
+    border: 1px solid #8a8888;
+    padding: 3px;
+}
+.nome-do-solicitador ::placeholder, #obs::placeholder{
+    color: white;
+}
+#obs{
+    background-color: rgba(247, 247, 247, 0.342);
+    height: 100px;
+    resize: none;
+}
+.solicite-servicos-externo a{
+    text-decoration: none;
+    color:transparent;
+    padding: 10px 20px;
+    border-radius: 50px 20px;
+    background-color:transparent;
+    position: relative;
+    top: 40px;
+    transition: all 1s ease-in-out;
+    cursor:context-menu;
+}
+.solicite-servicos-externo a:hover{
+    border-radius: 20px 50px;
+}
+
+
+/*VIDEO DE FUNDO*/
+video{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+/*MENU*/
+.menu{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    z-index: +1;   
+}
+.menu img{
+    height: 70px;
+    width: 200px;
+    margin-left: 50px;
+}
+.menu-interno{
+    display: flex;
+    gap: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.conectores{
+    text-decoration: none;
+    color: white;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.conectores:hover{
+    border-bottom: 2px solid rgb(228, 113, 36);
+    color: rgb(228, 113, 36);
+    transition: color 0.5s ease-in-out;
+}
+
+/*FRASE E REDES SOCIAIS*/
+.sobre-empresa{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000096;
+}
+.frase{
+    text-align: center;
+    font-size: 60px;
+    padding: 0px 100px;
+    color:  rgb(228, 113, 36);
+    font-family:'Montserrat';
+    transition: 0.5s;
+}
+.frase:hover{
+    -webkit-text-stroke: 1px rgb(228, 113, 36);
+    color: transparent;
+}
+.rede-sociais{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+.rede-sociais a {
+    text-decoration: none;
+    color: white;
+}
+.rede-sociais p {
+    width: 0px;
+    color: transparent;
+    transition: all 1s ease-in-out;
+}
+.insta, .face, .whats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta img{
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+.face img{
+    height: 40px;
+    margin-right: 3px;
+}
+.whats img{
+    height: 43px;
+    margin-right: 3px;
+}
+.rede-sociais a:hover p{
+    width: 80px;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.container-two{
+    background-color: white;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    bottom: 117px;
+}
+
+/*SOBRE A EMPRESA*/
+.sobre-nos{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-sobre-nos,.subtitulo-sobre-nos {
+    font-size: 30px;
+    color:rgb(228, 113, 36);
+    font-family:'Montserrat';
+    text-align: center;
+}
+.subtitulo-sobre-nos{
+    font-size: 15px;
+    color: #666464;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.texto-sobre-nos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    gap: 50px;
+    animation: entrada 1ms ease-in-out;
+    animation-timeline:view();
+    animation-range: cover 0% 40%;
+}
+.texto-sobre-nos img{
+    height: 400px;
+    width: 400px;
+    filter:drop-shadow(2px 2px 5px rgb(138, 136, 136))
+}
+.texto-sobre-nos p{
+    font-size: 20px;
+}
+
+/*ICONES*/
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.685);
+}
+.icone img{
+    height: 100px;
+}
+
+/*SERVIÇOS*/
+.servicos{
+    height: 100%;
+    width: 100%;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-servicos{
+    font-size: 30px;
+    color:rgb(228, 113, 36);
+    font-family:'Montserrat';
+    text-align: center;
+    margin-bottom: 50px;
+}
+.todos-servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.servico{
+    text-align: center;
+    height: 450px;
+    width: 300px;
+    background-color: rgb(223, 230, 236);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px 50px;
+    animation: entrada 1ms ease-in-out;
+    animation-timeline:view();
+    animation-range: cover 0% 40%;
+}
+.servico img{
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.servico h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family:'Montserrat';
+}
+.servico span{
+    font-size: 15px;
+    padding: 10px;
+    color: #555454;
+}
+.servico p{
+    text-align: start;
+    padding: 20px 0px 0px 10px;
+    color: black;
+}
+.servico:hover{
+    border: 1px solid rgb(241, 124, 46);
+    filter: drop-shadow(3px 3px 5px black);
+}
+
+/*SAIBA MAIS*/
+.botao{
+    text-align: center;
+    margin-top: 100px;
+}
+.botao a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color:rgb(241, 124, 46) ;
+    border-radius: 30px 20px;
+    transition: all 1s;
+}
+.botao a:hover{
+    padding: 25px;
+    border-radius:20px 40px;
+    color: black;
+}
+
+/*FEEDBACKS*/
+.feedbacks-clientes{
+    background-color: aliceblue;
+}
+.title-feedbacks{
+    font-size: 30px;
+    color:rgb(228, 113, 36);
+    font-family:'Montserrat';
+    text-align: center;
+}
+.feedbacks-one,.feedbacks-two, .feedbacks-tree {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    transition: all 2s ease-in-out;
+}
+.feedbacks-two, .feedbacks-tree{
+    display: none;
+}
+.feed{
+    width: 400px;
+}
+.feed p {
+    font-size: 30px;
+    font-family:'Kalam', cursiva;
+}
+.feed1, .feed2{
+    height: 90px;
+    position: relative;
+    right: 100px;
+}
+.feed2{
+    text-align: end;
+    left: 300px;
+}
+.pessoa{
+    text-align: center;
+    font-family:'Montserrat';
+}
+.pessoa img{
+    height: 150px;
+    border-radius: 50%;
+}
+.pessoa a {
+    text-decoration: none;
+}
+.trocas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.b1, .b2, .b3{
+    height: 30px;
+    width: 30px;
+    background-color:rgb(228, 113, 36) ;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.b2, .b3{
+    background-color:#74727296;
+}
+
+/*FORMULÁRIO*/
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+.title-formulario{
+    font-size: 30px;
+    color:rgb(228, 113, 36);
+    font-family:'Montserrat';
+    text-align: center;
+}
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 60px;
+    border-radius: 10px;
+}
+.endereco-telefone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #5c5959;
+}
+.logo-formulario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 538.41px;
+    height: 100px;
+    position: absolute;
+}
+.logo-formulario img{
+    height: 100px;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+}
+.formulario-interno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.formulario-interno input, textarea{
+    font-size: 18px;
+    width: 300px;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 5px 1px ;
+    background-color: aliceblue;
+    border-bottom: 2px solid #a39e9e;
+    font-family:'Montserrat';
+}
+.nome,.email, .pasta, .texto{
+    height: 50px;
+    margin-top: 50px;
+    font-family:'Montserrat';
+}
+.email,.pasta,.texto{
+    margin-top: 0;
+    margin-top: 15px;
+}
+.texto textarea{
+    border: 2px #a39e9e;
+    border-style:dashed;
+    height: 110px;
+    font-size: 15px;
+    resize: none;
+}
+.pasta input{
+    border: none;
+    margin-top: 70px;
+}
+.enviar{
+    margin-top: 70px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enviar button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    background-size: 300% 100%;
+    background-image:linear-gradient(to left, rgb(241, 141, 75),rgb(241, 141, 75), aliceblue,rgb(241, 141, 75),rgb(241, 141, 75) );
+    animation: degrade 10s infinite alternate;
+}
+.enviar button:hover{
+    color:#a39e9e;
+}
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    content: '';
+    background-image: url(../imagens/backgrounds/cpu.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Montserrat';
+
+}
+.rodape{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter:blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.rodape img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.barra{
+    height: 100px;
+    width: 3px;
+    background-color: white;
+}
+.hallo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: cursive;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*ANIMAÇÕES*/
+@keyframes degrade{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+}
+@keyframes entrada {
+    from{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}

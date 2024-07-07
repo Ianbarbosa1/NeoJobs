@@ -1,0 +1,400 @@
+
+@media screen and (min-width:450px) and (max-width: 549px){
+    /*ENTRADA*/
+    .container-one{
+        content:'';
+        background-image: url(../imagens/videos/wwp\ fundo.jpeg);
+        z-index: -99;
+        height: 100vh;
+        width: 100%;
+        background-position:left;
+        background-size: cover;
+    }
+    .menu{
+        padding: 7px;
+    }
+    .menu img{
+        height: 60px;
+        width: 150px;
+        margin-left:0px;
+    }
+    .menu-interno{
+        gap: 15px;
+        font-size: 14px;
+    }
+    video{
+        z-index: 0;
+    }
+    .sobre-empresa{
+        z-index: +1;
+        height: 100vh;
+    }
+    .frase{
+        z-index: +1;
+        font-size: 40px;
+        padding: 0px 20px;
+    }
+    .rede-sociais{
+        z-index: +1;
+    }
+    .menu{
+        z-index: +2;
+    }
+
+    /*SOBRE NÓS*/
+    .texto-sobre-nos{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-sobre-nos img{
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        z-index: -1;
+        opacity:0.3;
+    }
+    .texto-sobre-nos p{
+        padding: 20px;
+        text-align: center;
+    }
+
+    /*ICONES*/
+    .icone{
+        gap: 50px;
+    }
+    .icone img{
+        height: 50px;
+    }
+
+    /*SERVIÇOS*/
+    .servicos{
+        height: 1200px;
+        width: 100%;
+    }
+    .todos-servicos{
+        gap:5px;
+        flex-wrap: wrap;
+    }
+    .servico{
+        height: 410px;
+        width: 225px;
+    }
+    .servico img{
+        height: 120px;
+    }
+    .servico p{
+        padding: 15px 0px 0px 10px;
+        font-size: 13px;
+    }
+
+    /*FEEDBACKS*/ 
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+        gap: 25px;
+    }
+    .feed{
+        width: 230px;
+    }
+    .feed p {
+        font-size: 20px;
+    }
+    .feed1, .feed2{
+        height: 40px;
+        right: 0px;
+    }
+    .feed2{
+        left: 200px;
+    }
+    .pessoa img{
+        height: 110px;
+        border-radius: 50%;
+    }
+    .b1, .b2, .b3{
+        height: 25px;
+        width: 25px;
+    }
+
+    /*FORMULÁRIO E RODAPÉ*/
+    .logo-formulário{
+        width:100%;
+    }
+    .rodape img{
+        height: 150px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width: 699px){ 
+    /*ENTRADA*/
+    .container-one{
+        content:'';
+        background-image: url(../imagens/videos/wwp\ fundo.jpeg);
+        z-index: -99;
+        height: 100vh;
+        width: 100%;
+        background-position:left;
+        background-size: cover;
+    }
+    .menu img{
+        height: 70px;
+        width: 190px;
+        margin-left:0px;
+    }
+    .menu-interno{
+        gap: 25px;
+        font-size: 15px;
+    }
+    video{
+        z-index: 0;
+    }
+    .sobre-empresa{
+        z-index: +1;
+        height: 100vh;
+    }
+    .frase{
+        z-index: +1;
+        font-size: 45px;
+        padding: 0px 50px;
+    }
+    .rede-sociais{
+        z-index: +1;
+    }
+    .menu{
+        z-index: +2;
+    }
+
+    /*SOBRE NÓS*/
+    .texto-sobre-nos{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-sobre-nos img{
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        z-index: -1;
+        opacity:0.3;
+    }
+    .texto-sobre-nos p{
+        padding: 20px;
+        text-align: center;
+    }
+
+    /*ICONES*/
+    .icone{
+        gap: 75px;
+    }
+    .icone img{
+        height: 70px;
+    }
+
+
+    /*SERVIÇOS*/
+    .servicos{
+        height: 1200px;
+        width: 100%;
+    }
+    .todos-servicos{
+        gap:20px;
+        flex-wrap: wrap;
+    }
+    .servico{
+        height: 410px;
+        width: 240px;
+    }
+    .servico img{
+        height: 120px;
+    }
+    .servico p{
+        padding: 15px 0px 0px 10px;
+        font-size: 13px;
+    }
+
+    /*FEEDBACKS*/ 
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+        gap: 25px;
+    }
+    .feed{
+        width: 290px;
+    }
+    .feed p {
+        font-size: 25px;
+    }
+    .feed1, .feed2{
+        height: 50px;
+        right: 0px;
+    }
+    .feed2{
+        left: 250px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width: 999px) {
+    /*ENTRADA*/
+    .container-one{
+        content:'';
+        background-image: url(../imagens/videos/wwp\ fundo.jpeg);
+        z-index: -99;
+        height: 100vh;
+        width: 100%;
+        background-position:left;
+        background-size: cover;
+    }
+    .menu img{
+        margin-left:25px;
+    }
+    video{
+        height: 100vh;
+        z-index: 0;
+    }
+    .sobre-empresa{
+        z-index: +1;
+        height: 100vh;
+    }
+    .frase{
+        z-index: +1;
+        font-size: 45px;
+        padding: 0px 50px;
+    }
+    .rede-sociais{
+        z-index: +1;
+    }
+    .menu{
+        z-index: +2;
+    }
+
+    /*SOBRE NÓS*/
+    .texto-sobre-nos{
+        width:100%;
+        gap: 15px;
+    }
+    .texto-sobre-nos img{
+        height: 350px;
+        width: 350px;
+    }
+    .texto-sobre-nos p{
+        padding: 15px;
+    }
+
+    /*ICONES*/
+    .icone{
+        gap: 100px;
+    }
+
+    /*SERVIÇOS*/
+    .servicos{
+        height: 1200px;
+        width: 100%;
+    }
+    .todos-servicos{
+        gap:20px;
+        flex-wrap: wrap;
+    }
+    .servico{
+        height: 410px;
+        width: 240px;
+    }
+    .servico img{
+        height: 120px;
+    }
+    .servico p{
+        padding: 15px 0px 0px 10px;
+        font-size: 13px;
+    }
+    
+    /*FEEDBACKS*/
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+        gap: 50px;
+    }
+    .feed{
+        width: 300px;
+    }
+    .feed p {
+        font-size: 25px;
+    }
+    .feed1, .feed2{
+        height: 70px;
+        right: 60px;
+    }
+    .feed2{
+        left: 250px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width: 1349px) {
+    /*ENTRADA*/
+    .container-one{
+        content:'';
+        background-image: url(../imagens/videos/wwp\ fundo.jpeg);
+        z-index: -99;
+        height: 100vh;
+        width: 100%;
+        background-position:center;
+        background-repeat: repeat-y;
+        background-size: contain;
+    }
+    video{
+        height: 100vh;
+        z-index: 0;
+    }
+    .sobre-empresa{
+        z-index: +1;
+        height: 100vh;
+    }
+    .frase{
+        z-index: +1;
+    }
+    .rede-sociais{
+        z-index: +1;
+    }
+    .menu{
+        z-index: +2;
+    }
+
+    /*SERVIÇOS*/
+    .todos-servicos{
+        gap:10px;
+    }
+    .servico{
+        width: 240px;
+    }
+    .servico p{
+        text-align: start;
+        padding: 15px 0px 0px 10px;
+        font-size: 13px;
+        color: black;
+    }
+}
+
+@media screen and (min-width:1350px) and (max-width: 1499px) {
+    /*REDE SOCIAIS*/
+    .rede-sociais{
+        bottom: 170px;
+    }
+    /*SERVIÇOS*/
+    .todos-servicos{
+        gap:25px;
+    }
+}
+
+@media screen and (min-width:1500px) and (max-width: 1650px) {
+    /*REDES SOCIAIS*/
+    .rede-sociais{
+        bottom: 110px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width: 1699px) {
+    .container-two{
+        bottom: 3px;
+    }
+}
+
+@media screen and (min-width:2000px) and (max-width: 2230px) {
+    .container-two{
+        bottom: 64px;
+    }
+}
