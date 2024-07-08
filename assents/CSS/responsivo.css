@@ -1,4 +1,4 @@
-@media screen and (min-width:350px) and (max-width: 549px){
+@media screen and (min-width:400px) and (max-width: 549px){
     /*CONTAINER INVISIVEL*/
     .solicite-servicos-externo{
         height: 450px;
@@ -169,6 +169,113 @@
     .rodape img{
         height: 170px;
         border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width: 699px){ 
+    /*ENTRADA*/
+    .container-one{
+        content:'';
+        background-image: url(../imagens/videos/wwp\ fundo.jpeg);
+        z-index: -99;
+        height: 100vh;
+        width: 100%;
+        background-position:left;
+        background-size: cover;
+    }
+    .menu img{
+        height: 70px;
+        width: 190px;
+        margin-left:0px;
+    }
+    .menu-interno{
+        gap: 25px;
+        font-size: 15px;
+    }
+    video{
+        z-index: 0;
+    }
+    .sobre-empresa{
+        z-index: +1;
+        height: 100vh;
+    }
+    .frase{
+        z-index: +1;
+        font-size: 45px;
+        padding: 0px 50px;
+    }
+    .rede-sociais{
+        z-index: +1;
+    }
+    .menu{
+        z-index: +2;
+    }
+
+    /*SOBRE NÓS*/
+    .texto-sobre-nos{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-sobre-nos img{
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        z-index: -1;
+        opacity:0.3;
+    }
+    .texto-sobre-nos p{
+        padding: 20px;
+        text-align: center;
+    }
+
+    /*ICONES*/
+    .icone{
+        gap: 75px;
+    }
+    .icone img{
+        height: 70px;
+    }
+
+
+    /*SERVIÇOS*/
+    .servicos{
+        height: 1200px;
+        width: 100%;
+    }
+    .todos-servicos{
+        gap:20px;
+        flex-wrap: wrap;
+    }
+    .servico{
+        height: 410px;
+        width: 240px;
+    }
+    .servico img{
+        height: 120px;
+    }
+    .servico p{
+        padding: 15px 0px 0px 10px;
+        font-size: 13px;
+    }
+
+    /*FEEDBACKS*/ 
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+        gap: 25px;
+    }
+    .feed{
+        width: 290px;
+    }
+    .feed p {
+        font-size: 25px;
+    }
+    .feed1, .feed2{
+        height: 50px;
+        right: 0px;
+    }
+    .feed2{
+        left: 250px;
     }
 }
 
