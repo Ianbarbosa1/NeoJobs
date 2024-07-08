@@ -1,5 +1,13 @@
-
 @media screen and (min-width:450px) and (max-width: 549px){
+    .solicite-servicos-externo{
+        height: 450px;
+        width: 430px;
+    }
+    .sair{
+        left: 396px ;
+        top: 33px;
+    }
+    
     /*ENTRADA*/
     .container-one{
         content:'';
@@ -12,15 +20,21 @@
     }
     .menu{
         padding: 7px;
+        width: 100%;
     }
     .menu img{
         height: 60px;
         width: 150px;
         margin-left:0px;
     }
+    .menu-interno a{
+        display: none;
+    }
     .menu-interno{
-        gap: 15px;
-        font-size: 14px;
+        gap: 10px;
+        font-size: 16px;
+        position: relative;
+        right: 5px;
     }
     video{
         z-index: 0;
@@ -42,6 +56,9 @@
     }
 
     /*SOBRE NÓS*/
+    .sobre-nos{
+        height: 100%;
+    }
     .texto-sobre-nos{
         width:100%;
         display: flex;
@@ -70,7 +87,7 @@
 
     /*SERVIÇOS*/
     .servicos{
-        height: 1200px;
+        height: 100%;
         width: 100%;
     }
     .todos-servicos{
@@ -78,15 +95,34 @@
         flex-wrap: wrap;
     }
     .servico{
-        height: 410px;
-        width: 225px;
+        height: 310px;
+        width: 215px;
+        transition: all 1s ease-in-out;
+        animation-range: cover 0% 20%;
+    }
+    .servico h2{
+        margin-bottom: 10px;
     }
     .servico img{
         height: 120px;
     }
+    .servico span{
+        padding: 5px;
+        transition: all 1s ease-in-out;
+    }
     .servico p{
-        padding: 15px 0px 0px 10px;
+        padding: 10px 0px 0px 10px;
         font-size: 13px;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+        position: relative;
+        bottom: 100px;
+    }
+    .servico:hover  span{
+        opacity: 0;
+    }
+    .servico:hover p{
+        opacity: 1;
     }
 
     /*FEEDBACKS*/ 
@@ -116,8 +152,16 @@
     }
 
     /*FORMULÁRIO E RODAPÉ*/
-    .logo-formulário{
-        width:100%;
+    .logo-formulario{
+        width: 100%;
+    }
+    
+    footer{
+        height: 200px;
+    
+    }
+    .rodape{
+        height: 200px;
     }
     .rodape img{
         height: 150px;
@@ -354,7 +398,17 @@
         z-index: +2;
     }
 
+    /*SOBRE A EMPRESA*/
+    .sobre-nos{
+    height: 600px;
+    width: 100%;
+    } 
+
     /*SERVIÇOS*/
+    .servicos{
+        height: 800px;
+        width: 100%;
+    }
     .todos-servicos{
         gap:10px;
     }
@@ -366,6 +420,17 @@
         padding: 15px 0px 0px 10px;
         font-size: 13px;
         color: black;
+    }
+
+    /*FEEDBACKS*/
+    .feedbacks-clientes{
+        background-color: aliceblue;
+        height: 650px;
+    }
+
+    /*FORMULÁRIO*/
+    .formulario{
+        height: 750px;
     }
 }
 
