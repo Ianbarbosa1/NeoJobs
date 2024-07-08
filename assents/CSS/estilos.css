@@ -182,7 +182,7 @@ video{
     position: absolute;
     height: 100px;
     width: 300px;
-    bottom: 25px;
+    bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
