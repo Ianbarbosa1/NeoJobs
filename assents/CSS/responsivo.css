@@ -311,6 +311,10 @@
     }
 
     /*SOBRE NÓS*/
+    .sobre-nos{
+        height: 700px;
+        width: 100%;
+    } 
     .texto-sobre-nos{
         width:100%;
         gap: 15px;
@@ -365,6 +369,10 @@
     }
     .feed2{
         left: 250px;
+    }
+    /*FORMULÁRIO*/
+    .formulario{
+        height: 800px;
     }
 }
 
