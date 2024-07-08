@@ -121,7 +121,7 @@ function alter(){
 
     servico.addEventListener('click', solicitar)
     function solicitar(){
-        let telefone = "5521998382523"
+        let telefone = "5521996865072"
         let assunto = z
         let nome = nomeSolicitador.value
         let observacao = descricao.value
