@@ -55,7 +55,6 @@ body{
 .solicite-servicos-externo h1{
     color: rgb(255, 255, 255);
     padding-top: 50px;
-    font-family:'Montserrat';
     font-weight: 500;
     font-size: 20px;
 }
@@ -107,7 +106,6 @@ option{
 .solicite-servicos-externo a:hover{
     border-radius: 20px 50px;
 }
-
 
 /*VIDEO DE FUNDO*/
 video{
@@ -223,7 +221,6 @@ video{
 }
 
 
-
 .container-two{
     background-color: white;
     position: relative;
@@ -231,7 +228,6 @@ video{
     width: 100%;
     bottom: 117px;
 }
-
 /*SOBRE A EMPRESA*/
 .sobre-nos{
     height: 100%;
@@ -343,7 +339,6 @@ video{
     border: 1px solid rgb(241, 124, 46);
     filter: drop-shadow(3px 3px 5px black);
 }
-
 /*SAIBA MAIS*/
 .botao{
     text-align: center;
@@ -541,7 +536,6 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     font-family:'Montserrat';
-
 }
 .rodape{
     height: 300px;
@@ -558,7 +552,6 @@ footer{
     height: 200px;
     border-radius: 50%;
 }
-
 .barra{
     height: 100px;
     width: 3px;
