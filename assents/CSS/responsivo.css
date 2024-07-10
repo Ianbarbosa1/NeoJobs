@@ -642,11 +642,18 @@
 @media screen and (min-width:1351px) and (max-width: 1500px) {
     /*REDE SOCIAIS*/
     .rede-sociais{
-        bottom: 170px;
+        bottom: 70px;
     }
     /*SERVIÇOS*/
     .todos-servicos{
         gap:25px;
+    }
+    .servicos{
+        height: 800px;
+        width: 100%;
+    }
+    .formulario{
+        height: 750px;
     }
 }
 
