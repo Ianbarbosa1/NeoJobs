@@ -8,9 +8,9 @@ let feedbackTree = document.querySelector('.feedbacks-tree')
 let trocaOne = document.querySelector('.b1')
 let trocaTwo = document.querySelector('.b2')
 let trocaTree = document.querySelector('.b3')
-    trocaOne.addEventListener('click', firstTroca)
-    trocaTwo.addEventListener('click', SecondTroca)
-    trocaTree.addEventListener('click', ThirdTroca)
+trocaOne.addEventListener('click', firstTroca)
+trocaTwo.addEventListener('click', SecondTroca)
+trocaTree.addEventListener('click', ThirdTroca)
 
 
 //FUNÇÕES DAS TROCAS
@@ -102,7 +102,7 @@ function alter(){
             z = 'Limpeza externa'
         }  
         else if (a === 6) {
-            z = 'Instalaçao de aplicativos'
+            z = 'Instalação de aplicativos'
         }  
         else if (a === 7) {
             z = 'Instalação de impressora'
@@ -118,10 +118,9 @@ function alter(){
         }  
     }
 
-
     servico.addEventListener('click', solicitar)
     function solicitar(){
-        let telefone = "5521996865072"
+        let telefone = "5521998303003"
         let assunto = z
         let nome = nomeSolicitador.value
         let observacao = descricao.value
@@ -138,7 +137,7 @@ function alter(){
             var url = "http://wa.me/" + telefone + "?text=" 
             + "*SOLICITAÇÃO DE SERVIÇO*" + "%0a"
             + "" + "%0a"
-            + "Nome: " + nome +"%0a"
+            + "*Nome:* " + nome +"%0a"
             + "Serviço: " + assunto + "%0a"
             window.open(url).focus()
         }
@@ -146,9 +145,9 @@ function alter(){
             var url = "http://wa.me/" + telefone + "?text=" 
             + "*SOLICITAÇÃO DE SERVIÇO*" + "%0a"
             + " " + "%0a"
-            + "Nome: " + nome +"%0a"
-            + "Serviço: " + assunto + "%0a"
-            + "Obs: " + observacao +"%0a"
+            + "*Nome:* " + nome +"%0a"
+            + "*Serviço:* " + assunto + "%0a"
+            + "*Descrição:* " + observacao +"%0a"
             window.open(url).focus()
         }
     }
