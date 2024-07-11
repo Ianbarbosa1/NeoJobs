@@ -175,6 +175,7 @@ video{
 .frase:hover{
     -webkit-text-stroke: 1px rgb(228, 113, 36);
     color: transparent;
+    font-weight: 600;
 }
 .rede-sociais{
     position: absolute;
