@@ -47,7 +47,7 @@
     .frase{
         z-index: +1;
         font-size: 40px;
-        padding: 0px 20px;
+        padding: 0px 10px;
     }
     .rede-sociais{
         z-index: +1;
@@ -97,10 +97,10 @@
         flex-wrap: wrap;
     }
     .servico{
-        height: 305px;
+        height: 310px;
         width: 160px;
         transition: all 1s ease-in-out;
-        animation-range: cover 0% 20%;
+        animation-range: cover 0% 10%;
     }
     .servico h2{
         margin-bottom: 3px;
@@ -116,18 +116,7 @@
         font-size: 12.5px;
     }
     .servico p{
-        padding: 10px 0px 0px 3px;
-        font-size: 10.5px;
-        opacity: 0;
-        transition: all 1s ease-in-out;
-        position: relative;
-        bottom: 90px;
-    }
-    .servico:hover  span{
-        opacity: 0;
-    }
-    .servico:hover p{
-        opacity: 1;
+        display:none;
     }
 
     /*FEEDBACKS*/ 
@@ -164,6 +153,9 @@
     }
 
     /*FORMULÁRIO E RODAPÉ*/
+    .formulario{
+        height: 800px;
+    }
     .logo-formulario{
         width: 100%;
     }
@@ -183,7 +175,10 @@
         border-radius: 50%;
     }
     .hallo{
-        font-size: 13px;
+        font-size: 15px;
+        margin-right: 0px;
+        padding-right:5px ;
+        margin-top: 150px;
     }
 }
 
@@ -304,18 +299,7 @@
         font-size: 14px;
     }
     .servico p{
-        padding: 10px 0px 0px 5px;
-        font-size: 12px;
-        opacity: 0;
-        transition: all 1s ease-in-out;
-        position: relative;
-        bottom: 90px;
-    }
-    .servico:hover  span{
-        opacity: 0;
-    }
-    .servico:hover p{
-        opacity: 1;
+        display: none;
     }
 
     /*FEEDBACKS*/ 
@@ -355,7 +339,6 @@
     
     footer{
         height: 200px;
-    
     }
     .rodape{
         height: 200px;
@@ -365,7 +348,10 @@
         border-radius: 50%;
     }
     .hallo{
+        margin-right: 0px;
+        padding-right:5px ;
         font-size: 15px;
+        margin-top: 150px;
     }
 }
 
@@ -445,7 +431,7 @@
         flex-wrap: wrap;
     }
     .servico{
-        height: 410px;
+        height: 450px;
         width: 240px;
     }
     .servico img{
@@ -473,6 +459,9 @@
     .feed2{
         left: 250px;
     }
+    .hallo{
+        margin-top: 240px;
+    }
 }
 
 @media screen and (min-width:701px) and (max-width: 1000px) {
@@ -485,6 +474,11 @@
         width: 100%;
         background-position:left;
         background-size: cover;
+    }
+    .sair{
+        height: 35px;
+        width: 35px;
+        font-size: 30px;
     }
     .menu img{
         margin-left:25px;
@@ -507,6 +501,11 @@
     }
     .menu{
         z-index: +2;
+    }
+
+    .container-two{
+        height: 1200px;
+        width: 100%;
     }
 
     /*SOBRE NÓS*/
@@ -541,7 +540,7 @@
         flex-wrap: wrap;
     }
     .servico{
-        height: 410px;
+        height: 440px;
         width: 240px;
     }
     .servico img{
@@ -572,6 +571,9 @@
     /*FORMULÁRIO*/
     .formulario{
         height: 800px;
+    }
+    .hallo{
+        margin-top: 240px;
     }
 }
 
