@@ -8,46 +8,84 @@ let feedbackTree = document.querySelector('.feedbacks-tree')
 let trocaOne = document.querySelector('.b1')
 let trocaTwo = document.querySelector('.b2')
 let trocaTree = document.querySelector('.b3')
-trocaOne.addEventListener('click', firstTroca)
-trocaTwo.addEventListener('click', SecondTroca)
-trocaTree.addEventListener('click', ThirdTroca)
+
 
 
 //FUNÇÕES DAS TROCAS
-function firstTroca() {
-    setTimeout(() => {
-        feedbackOne.style.display = 'flex'
-        feedbackTwo.style.display = 'none'
-        feedbackTree.style.display = 'none'
+    trocaTwo.addEventListener('click', SecondTroca)
+    trocaTree.addEventListener('click', ThirdTroca)
+    trocaOne.addEventListener('click', firstTroca)
 
-        trocaOne.style.backgroundColor = 'rgb(228, 113, 36)'
-        trocaTwo.style.backgroundColor = '#74727296'
-        trocaTree.style.backgroundColor = '#74727296'
-    }, 100);
-}
-function SecondTroca() {
-    setTimeout(() => {
-        feedbackOne.style.display = 'none'
-        feedbackTwo.style.display = 'flex'
-        feedbackTree.style.display = 'none'
+    setInterval(() => {
+        setTimeout(() => {
+            feedbackOne.style.display = 'flex'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'none'
 
-        trocaOne.style.backgroundColor ='#74727296'
-        trocaTwo.style.backgroundColor = 'rgb(228, 113, 36)'
-        trocaTree.style.backgroundColor = '#74727296'
-    }, 100);
+            trocaOne.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = '#74727296'
+        }, 1000);
+
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'flex'
+            feedbackTree.style.display = 'none'
+
+            trocaOne.style.backgroundColor ='#74727296'
+            trocaTwo.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaTree.style.backgroundColor = '#74727296'
+        }, 7000);
+
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'flex'
+
+            trocaOne.style.backgroundColor = '#74727296'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = 'rgb(228, 113, 36)'
+        }, 14000);
+    }, 20000);
     
-}
-function ThirdTroca() {
-    setTimeout(() => {
-        feedbackOne.style.display = 'none'
-    feedbackTwo.style.display = 'none'
-    feedbackTree.style.display = 'flex'
+    function firstTroca() {
+        setTimeout(() => {
+            feedbackOne.style.display = 'flex'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'none'
 
-    trocaOne.style.backgroundColor = '#74727296'
-    trocaTwo.style.backgroundColor = '#74727296'
-    trocaTree.style.backgroundColor = 'rgb(228, 113, 36)'
-    }, 100);
-}
+            trocaOne.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = '#74727296'
+        }, 100);
+    }
+    
+    function SecondTroca() {
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'flex'
+            feedbackTree.style.display = 'none'
+
+            trocaOne.style.backgroundColor ='#74727296'
+            trocaTwo.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaTree.style.backgroundColor = '#74727296'
+        }, 100);
+        
+    }
+    function ThirdTroca() {
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+        feedbackTwo.style.display = 'none'
+        feedbackTree.style.display = 'flex'
+
+        trocaOne.style.backgroundColor = '#74727296'
+        trocaTwo.style.backgroundColor = '#74727296'
+        trocaTree.style.backgroundColor = 'rgb(228, 113, 36)'
+        }, 100);
+    }
+
+
+    
 
 
 //ABERTURA  DE SOLICITAÇÃO DE SERVIÇOS
