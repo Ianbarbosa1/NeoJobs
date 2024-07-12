@@ -376,7 +376,7 @@ video{
     font-family:'Montserrat';
     text-align: center;
 }
-.feedbacks-one,.feedbacks-two, .feedbacks-tree {
+.feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
     height: 500px;
     display: flex;
     justify-content: center;
@@ -384,7 +384,7 @@ video{
     gap: 100px;
     transition: all 2s ease-in-out;
 }
-.feedbacks-two, .feedbacks-tree{
+.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
     display: none;
 }
 .feed{
@@ -420,7 +420,7 @@ video{
     align-items: center;
     gap: 50px;
 }
-.b1, .b2, .b3{
+.b1, .b2, .b3, .b4, .b5{
     height: 30px;
     width: 30px;
     background-color:rgb(228, 113, 36) ;
@@ -428,7 +428,7 @@ video{
     margin-bottom: 20px;
     cursor: pointer;
 }
-.b2, .b3{
+.b2, .b3, .b4, .b5{
     background-color:#74727296;
 }
 
