@@ -3,60 +3,115 @@
 let feedbackOne = document.querySelector('.feedbacks-one')
 let feedbackTwo = document.querySelector('.feedbacks-two')
 let feedbackTree = document.querySelector('.feedbacks-tree')
+let feedbackFour = document.querySelector('.feedbacks-four')
+let feedbackFive = document.querySelector('.feedbacks-five')
 
 //BOTOES DE TROCA
 let trocaOne = document.querySelector('.b1')
 let trocaTwo = document.querySelector('.b2')
 let trocaTree = document.querySelector('.b3')
+let trocaFour = document.querySelector('.b4')
+let trocaFive = document.querySelector('.b5')
 
 
 
 //FUNÇÕES DAS TROCAS
+    trocaOne.addEventListener('click', FirstTroca)
     trocaTwo.addEventListener('click', SecondTroca)
     trocaTree.addEventListener('click', ThirdTroca)
-    trocaOne.addEventListener('click', firstTroca)
+    trocaFour.addEventListener('click', FourthTroca)
+    trocaFive.addEventListener('click', FifthTroca)
 
     setInterval(() => {
+        console.log('comecei!!!')
         setTimeout(() => {
             feedbackOne.style.display = 'flex'
             feedbackTwo.style.display = 'none'
             feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'none'
 
             trocaOne.style.backgroundColor = 'rgb(228, 113, 36)'
             trocaTwo.style.backgroundColor = '#74727296'
             trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = '#74727296'
         }, 1000);
 
         setTimeout(() => {
             feedbackOne.style.display = 'none'
             feedbackTwo.style.display = 'flex'
             feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'none'
 
             trocaOne.style.backgroundColor ='#74727296'
             trocaTwo.style.backgroundColor = 'rgb(228, 113, 36)'
             trocaTree.style.backgroundColor = '#74727296'
-        }, 7000);
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = '#74727296'
+        }, 5000);
 
         setTimeout(() => {
             feedbackOne.style.display = 'none'
             feedbackTwo.style.display = 'none'
             feedbackTree.style.display = 'flex'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'none'
 
             trocaOne.style.backgroundColor = '#74727296'
             trocaTwo.style.backgroundColor = '#74727296'
             trocaTree.style.backgroundColor = 'rgb(228, 113, 36)'
-        }, 14000);
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = '#74727296'
+        }, 9000);
+
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'flex'
+            feedbackFive.style.display = 'none'
+
+            trocaOne.style.backgroundColor = '#74727296'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaFive.style.backgroundColor = '#74727296'
+        }, 13000);
+
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'flex'
+
+            trocaOne.style.backgroundColor = '#74727296'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = 'rgb(228, 113, 36)'
+        }, 17000);
+
+
     }, 20000);
-    
-    function firstTroca() {
+
+
+    //------------------------------------------------------------------------------
+    function FirstTroca() {
         setTimeout(() => {
             feedbackOne.style.display = 'flex'
             feedbackTwo.style.display = 'none'
             feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'none'
 
             trocaOne.style.backgroundColor = 'rgb(228, 113, 36)'
             trocaTwo.style.backgroundColor = '#74727296'
             trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = '#74727296'
         }, 100);
     }
     
@@ -65,27 +120,65 @@ let trocaTree = document.querySelector('.b3')
             feedbackOne.style.display = 'none'
             feedbackTwo.style.display = 'flex'
             feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'none'
 
             trocaOne.style.backgroundColor ='#74727296'
             trocaTwo.style.backgroundColor = 'rgb(228, 113, 36)'
             trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = '#74727296'
         }, 100);
         
     }
     function ThirdTroca() {
         setTimeout(() => {
             feedbackOne.style.display = 'none'
-        feedbackTwo.style.display = 'none'
-        feedbackTree.style.display = 'flex'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'flex'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'none'
 
-        trocaOne.style.backgroundColor = '#74727296'
-        trocaTwo.style.backgroundColor = '#74727296'
-        trocaTree.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaOne.style.backgroundColor = '#74727296'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = '#74727296'
         }, 100);
     }
 
+    function FourthTroca() {
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'flex'
+            feedbackFive.style.display = 'none'
 
-    
+            trocaOne.style.backgroundColor = '#74727296'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = 'rgb(228, 113, 36)'
+            trocaFive.style.backgroundColor = '#74727296'
+        }, 100);
+    }
+
+    function FifthTroca() {
+        setTimeout(() => {
+            feedbackOne.style.display = 'none'
+            feedbackTwo.style.display = 'none'
+            feedbackTree.style.display = 'none'
+            feedbackFour.style.display = 'none'
+            feedbackFive.style.display = 'flex'
+
+            trocaOne.style.backgroundColor = '#74727296'
+            trocaTwo.style.backgroundColor = '#74727296'
+            trocaTree.style.backgroundColor = '#74727296'
+            trocaFour.style.backgroundColor = '#74727296'
+            trocaFive.style.backgroundColor = 'rgb(228, 113, 36)'
+        }, 100);
+    }
+
 
 
 //ABERTURA  DE SOLICITAÇÃO DE SERVIÇOS
