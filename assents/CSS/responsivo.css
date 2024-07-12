@@ -120,7 +120,7 @@
     }
 
     /*FEEDBACKS*/ 
-    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
         gap: 5px;
         height: 300px;
     }
@@ -147,7 +147,7 @@
     .pessoa {
         font-size: 12px;
     }
-    .b1, .b2, .b3{
+    .b1, .b2, .b3, .b4, .b5{
         height: 25px;
         width: 25px;
     }
@@ -303,7 +303,7 @@
     }
 
     /*FEEDBACKS*/ 
-    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
         gap:17px;
         height: 350px;
     }
@@ -327,7 +327,7 @@
         height: 110px;
         border-radius: 50%;
     }
-    .b1, .b2, .b3{
+    .b1, .b2, .b3, .b4, .b5{
         height: 25px;
         width: 25px;
     }
@@ -443,7 +443,7 @@
     }
 
     /*FEEDBACKS*/ 
-    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
         gap: 25px;
     }
     .feed{
@@ -552,7 +552,7 @@
     }
     
     /*FEEDBACKS*/
-    .feedbacks-one,.feedbacks-two, .feedbacks-tree {
+    .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
         gap: 50px;
     }
     .feed{
