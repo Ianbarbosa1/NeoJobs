@@ -550,6 +550,9 @@ footer{
     align-items: center;
     color: white;
 }
+footer div{
+    width: 300px;
+}
 footer img{
     height: 200px;
     border-radius: 50%;
