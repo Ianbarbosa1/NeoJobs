@@ -167,11 +167,11 @@
     footer{
         height: 200px;
     }
-    .rodape{
-        height: 200px;
+    footer div p{
+        font-size: 13px;
     }
-    .rodape img{
-        height: 170px;
+    footer img{
+        height: 150px;
         border-radius: 50%;
     }
     .hallo{
@@ -340,11 +340,11 @@
     footer{
         height: 200px;
     }
-    .rodape{
-        height: 200px;
+    footer div p{
+        font-size: 14px;
     }
-    .rodape img{
-        height: 170px;
+    footer img{
+        height: 160px;
         border-radius: 50%;
     }
     .hallo{
