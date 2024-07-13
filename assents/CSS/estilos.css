@@ -527,7 +527,7 @@ video{
     cursor: pointer;
     border-radius: 20px;
     background-size: 300% 100%;
-    background-image:linear-gradient(to left, rgb(241, 124, 46),rgb(241, 124, 46), aliceblue,rgb(241, 141, 75),rgb(241, 141, 75) );
+    background-image:linear-gradient(to left, rgb(241, 124, 46),rgb(241, 124, 46), aliceblue,rgb(241, 141, 75),rgb(241, 141, 75));
     animation: degrade 8s infinite alternate;
 }
 .enviar button:hover{
@@ -572,6 +572,7 @@ footer img{
     margin-right: 10px;
     margin-top: 200px;
 }
+
 
 
 /*ANIMAÇÕES*/
