@@ -7,6 +7,110 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*DIVS FLEX*/
+.container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .botão-site, .botão-site a, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CANAL*/
+/*COR DE FUNDO*/
+.container-one-canal {
+    height: 100dvh;
+    width: 100%;
+    z-index: +99;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.container-one-canal.abrir{
+    display: flex;
+}
+.fechar-canal{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 130px;
+    left: 450px;
+    width: 30px;
+}
+.fechar-canal:hover{
+    color: red;
+}
+
+/*IMAGEM DE FUNDO*/
+.container-two-canal{
+    content: '';
+    background-image: url(../imagens/img\ lateral\ preta.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+}
+
+/*CORES DE FUNDO*/
+.container-interno-canal{
+    background-image: linear-gradient(to top right, rgba(208, 82, 4, 0.8), rgba(0, 0, 0, 0.8), rgba(123, 129, 133, 0.8), rgba(208, 82, 4, 0.8));
+    text-align: center;
+    color: white;
+    padding: 0px 20px;
+    font-family:'Montserrat';
+    height: 500px;
+    width: 500px;
+}
+.container-interno-canal h1 {
+    font-size: 21px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    filter: drop-shadow(5px 5px 2px black);
+}
+.decoracao {
+    gap: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/*BARRAS LATERAIS DO TITULO*/
+.barra-1{
+    height: 5px;
+    width: 50px;
+    background-image: linear-gradient(to right, rgba(243, 97, 6), rgb(253, 108, 17), white, rgb(238, 237, 237));
+    background-size: 300% 100%;
+    animation: degrade 5s infinite alternate;
+}
+.barra-2 {
+    height: 5px;
+    width: 50px;
+    background-image: linear-gradient(to right, rgb(238, 237, 237), white, rgb(243, 97, 6), rgb(255, 98, 1));
+    background-size: 300% 100%;
+    animation: degrade 5s infinite alternate;
+}
+
+/*BOTÃO DO WHATSAPP*/
+.botão {
+    margin-top: 20px;
+    height: 40px;
+}
+.botão input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(165, 252, 36), greenyellow, white, greenyellow, rgb(155, 238, 31));
+    background-size: 300% 100%;
+    animation: degrade 4s infinite alternate;
+    filter: drop-shadow(2px 2px 2px black);
+}
+.botão input:hover {
+    color: rgb(133, 132, 132);
+    padding: 11px;
+}
+
 /*DIVISÃO INVISIVEL*/
 .invisivel{
     height: 100vh;
@@ -16,15 +120,10 @@ body{
     position: fixed;
     z-index: 99;
     display: none;
-    justify-content: center;
-    align-items: center;
 }
 .sair{
     height: 32px;
     width: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 25px;
     cursor: pointer;
     color: rgb(255, 153, 0);
@@ -58,9 +157,6 @@ body{
 }
 .escolhas-servicos{
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 select, .nome-do-solicitador input, #obs{
     height: 40px;
@@ -119,9 +215,7 @@ video{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.473);
     backdrop-filter: blur(20px);
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 30px;
     position: fixed;
     z-index: +1;   
@@ -157,9 +251,6 @@ video{
     height: 100vh;
     width: 100%;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #00000096;
 }
 .frase{
@@ -182,9 +273,6 @@ video{
     height: 100px;
     width: 300px;
     bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 15px;
     font-size: 18px;
 }
@@ -196,11 +284,6 @@ video{
     width: 0px;
     color: transparent;
     transition: all 1s ease-in-out;
-}
-.insta, .face, .whats{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .insta img{
     height: 40px;
@@ -234,9 +317,6 @@ video{
     height: 100%;
     width: 100%;
     background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .title-sobre-nos,.subtitulo-sobre-nos {
     font-size: 30px;
@@ -251,9 +331,7 @@ video{
     margin-bottom: 25px;
 }
 .texto-sobre-nos{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 1000px;
     gap: 50px;
     animation: entrada 1ms ease-in-out;
@@ -271,9 +349,6 @@ video{
 
 /*ICONES*/
 .icone{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 200px;
     padding: 20px;
     background-color: rgba(240, 248, 255, 0.685);
@@ -287,9 +362,6 @@ video{
     height: 100%;
     width: 100%;
     background-color:aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .title-servicos{
     font-size: 30px;
@@ -299,9 +371,6 @@ video{
     margin-bottom: 50px;
 }
 .todos-servicos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap:50px;
 }
 .todos-servicos a{
@@ -378,9 +447,6 @@ video{
 }
 .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five{
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 100px;
     transition: all 2s ease-in-out;
 }
@@ -415,9 +481,6 @@ video{
     text-decoration: none;
 }
 .trocas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 50px;
 }
 .b1, .b2, .b3, .b4, .b5{
@@ -434,9 +497,6 @@ video{
 
 /*FORMULÁRIO*/
 .formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: aliceblue;
     height: 100%;
     width: 100%;
@@ -448,24 +508,15 @@ video{
     text-align: center;
 }
 .contatos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 60px;
     gap: 60px;
     border-radius: 10px;
 }
 .endereco-telefone{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     color: #5c5959;
 }
 .logo-formulario{
-    display:flex;
-    justify-content: center;
-    align-items: center;
     width: 538.41px;
     height: 100px;
     position: absolute;
@@ -475,9 +526,6 @@ video{
     filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
 }
 .formulario-interno{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 600px;
 }
 .formulario-interno input, textarea{
@@ -515,9 +563,6 @@ video{
     margin-top: 70px;
     height: 100px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .enviar button{
     height: 40px;
@@ -545,9 +590,6 @@ footer{
     background-repeat: no-repeat;
     font-family:'Montserrat';
     gap: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 footer div{
@@ -565,7 +607,6 @@ footer img{
 .hallo{
     width: 100%;
     position: absolute;
-    display: flex;
     justify-content: end;
     align-items: end;
     font-family: cursive;
