@@ -7,7 +7,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*DIVS FLEX*/
+/*DIViÇÕES FLEX*/
 .container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .botao-site, .botao-site a, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
     display: flex;
     justify-content: center;
@@ -15,6 +15,7 @@ body{
 }
 
 /*CANAL*/
+
 /*COR DE FUNDO*/
 .container-one-canal {
     height: 100dvh;
