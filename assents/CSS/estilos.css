@@ -8,7 +8,7 @@ body{
 }
 
 /*DIVS FLEX*/
-.container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .botão-site, .botão-site a, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
+.container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .botao-site, .botao-site a, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,11 +92,11 @@ body{
 }
 
 /*BOTÃO DO WHATSAPP*/
-.botão {
+.botao {
     margin-top: 20px;
     height: 40px;
 }
-.botão input {
+.botao input {
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -106,7 +106,7 @@ body{
     animation: degrade 4s infinite alternate;
     filter: drop-shadow(2px 2px 2px black);
 }
-.botão input:hover {
+.botao input:hover {
     color: rgb(133, 132, 132);
     padding: 11px;
 }
@@ -613,7 +613,6 @@ footer img{
     margin-right: 10px;
     margin-top: 200px;
 }
-
 
 
 /*ANIMAÇÕES*/
