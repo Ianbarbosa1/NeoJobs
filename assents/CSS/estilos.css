@@ -92,11 +92,11 @@ body{
 }
 
 /*BOTÃO DO WHATSAPP*/
-.botao {
+.botao-canal {
     margin-top: 20px;
     height: 40px;
 }
-.botao input {
+.botao-canal input {
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -106,7 +106,7 @@ body{
     animation: degrade 4s infinite alternate;
     filter: drop-shadow(2px 2px 2px black);
 }
-.botao input:hover {
+.botao-canal input:hover {
     color: rgb(133, 132, 132);
     padding: 11px;
 }
