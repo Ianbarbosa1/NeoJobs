@@ -1,3 +1,27 @@
+//ABRE E FECHA DO CANAL
+setTimeout(() => {
+    const modal = document.getElementById('canal');
+    modal.classList.add("abrir");
+
+    modal.addEventListener('click', (e) => {
+        if(e.target.id === 'canal'|| e.target.id === 'fechar'){
+            modal.classList.remove('abrir')
+        }
+    })
+}, 3000);
+
+function openModal(){
+    const modal = document.getElementById('canal');
+    modal.classList.add("abrir");
+
+    modal.addEventListener('click', (e) => {
+        if(e.target.id === 'canal'|| e.target.id === 'fechar'){
+            modal.classList.remove('abrir')
+        }
+    })
+}
+    
+
 
 //DIVISÕES
 let feedbackOne = document.querySelector('.feedbacks-one')
