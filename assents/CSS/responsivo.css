@@ -1,4 +1,20 @@
 @media screen and (min-width:350px) and (max-width: 450px){
+    /*CANAL*/
+    .fechar-canal{
+        bottom: 25px;
+        left: 300px;
+    }
+    /*IMAGEM DE FUNDO*/
+    .container-two-canal{
+        height: 350px;
+        width: 350px;
+    }
+    /*CORES DE FUNDO*/
+    .container-interno-canal{ 
+        height: 350px;
+        width: 350px;
+    }
+
     /*CONTAINER INVISIVEL*/
     .solicite-servicos-externo{
         height: 450px;
@@ -24,8 +40,8 @@
         width: 100%;
     }
     .menu img{
-        height: 60px;
-        width: 150px;
+        height: 40px;
+        width: 100px;
         margin-left:0px;
     }
     .menu-interno a{
@@ -33,9 +49,9 @@
     }
     .menu-interno{
         gap: 10px;
-        font-size: 16px;
+        font-size: 14px;
         position: relative;
-        right: 23px;
+        right: 5px;
     }
     video{
         z-index: 0;
@@ -183,6 +199,22 @@
 }
 
 @media screen and (min-width:451px) and (max-width: 550px){
+    /*CANAL*/
+    .fechar-canal{
+        bottom: 60px;
+        left: 350px;
+    }
+    /*IMAGEM DE FUNDO*/
+    .container-two-canal{
+        height: 400px;
+        width: 400px;
+    }
+    /*CORES DE FUNDO*/
+    .container-interno-canal{ 
+        height: 400px;
+        width: 400px;
+    }
+
     /*CONTAINER INVISIVEL*/
     .solicite-servicos-externo{
         height: 450px;
@@ -356,6 +388,10 @@
 }
 
 @media screen and (min-width:551px) and (max-width: 700px){ 
+    .fechar-canal{
+        bottom: 132px;
+        left: 450px;
+    }
     /*ENTRADA*/
     .container-one{
         content:'';
@@ -367,13 +403,13 @@
         background-size: cover;
     }
     .menu img{
-        height: 70px;
-        width: 190px;
+        height: 60px;
+        width: 165px;
         margin-left:0px;
     }
     .menu-interno{
-        gap: 25px;
-        font-size: 15px;
+        gap: 15px;
+        font-size: 13px;
     }
     video{
         z-index: 0;
@@ -465,6 +501,11 @@
 }
 
 @media screen and (min-width:701px) and (max-width: 1000px) {
+    /*CANAL*/
+    .fechar-canal{
+        bottom: 132px;
+        left: 450px;
+    }
     /*ENTRADA*/
     .container-one{
         content:'';
@@ -487,6 +528,15 @@
         height: 100vh;
         z-index: 0;
     }
+    .menu img{
+        margin-left: 10px;
+    }
+    .menu-interno{
+        gap: 25px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+    }
+
     .sobre-empresa{
         z-index: +1;
         height: 100vh;
