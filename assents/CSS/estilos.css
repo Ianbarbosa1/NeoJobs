@@ -45,7 +45,7 @@ body{
 /*IMAGEM DE FUNDO*/
 .container-two-canal{
     content: '';
-    background-image: url(../imagens/img\ lateral\ preta.png);
+    background-image: url(../imagens/img-lateral-preta.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
