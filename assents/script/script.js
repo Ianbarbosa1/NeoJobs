@@ -23,7 +23,6 @@ let trocaFive = document.querySelector('.b5')
     trocaFive.addEventListener('click', FifthTroca)
 
     setInterval(() => {
-        console.log('comecei!!!')
         setTimeout(() => {
             feedbackOne.style.display = 'flex'
             feedbackTwo.style.display = 'none'
