@@ -1,7 +1,7 @@
 @media screen and (min-width:350px) and (max-width: 450px){
     /*CANAL*/
     .fechar-canal{
-        bottom: 25px;
+        bottom: 30px;
         left: 300px;
     }
     /*IMAGEM DE FUNDO*/
@@ -13,6 +13,12 @@
     .container-interno-canal{ 
         height: 350px;
         width: 350px;
+    }
+    .container-interno-canal h1 {
+        font-size: 18px;
+    }
+    .container-interno-canal p {
+        font-size: 15px;
     }
 
     /*CONTAINER INVISIVEL*/
@@ -40,8 +46,8 @@
         width: 100%;
     }
     .menu img{
-        height: 40px;
-        width: 100px;
+        height: 50px;
+        width: 110px;
         margin-left:0px;
     }
     .menu-interno a{
@@ -49,7 +55,7 @@
     }
     .menu-interno{
         gap: 10px;
-        font-size: 14px;
+        font-size: 13px;
         position: relative;
         right: 5px;
     }
@@ -58,7 +64,7 @@
     }
     .sobre-empresa{
         z-index: +1;
-        height: 100vh;
+        height: 100dvh;
     }
     .frase{
         z-index: +1;
@@ -201,9 +207,10 @@
 @media screen and (min-width:451px) and (max-width: 550px){
     /*CANAL*/
     .fechar-canal{
-        bottom: 60px;
+        bottom: 48px;
         left: 350px;
     }
+
     /*IMAGEM DE FUNDO*/
     .container-two-canal{
         height: 400px;
@@ -258,7 +265,7 @@
     }
     .sobre-empresa{
         z-index: +1;
-        height: 100vh;
+        height: 100dvh;
     }
     .frase{
         z-index: +1;
@@ -388,10 +395,6 @@
 }
 
 @media screen and (min-width:551px) and (max-width: 700px){ 
-    .fechar-canal{
-        bottom: 132px;
-        left: 450px;
-    }
     /*ENTRADA*/
     .container-one{
         content:'';
@@ -416,7 +419,7 @@
     }
     .sobre-empresa{
         z-index: +1;
-        height: 100vh;
+        height: 100dvh;
     }
     .frase{
         z-index: +1;
@@ -501,11 +504,6 @@
 }
 
 @media screen and (min-width:701px) and (max-width: 1000px) {
-    /*CANAL*/
-    .fechar-canal{
-        bottom: 132px;
-        left: 450px;
-    }
     /*ENTRADA*/
     .container-one{
         content:'';
@@ -692,6 +690,17 @@
 }
 
 @media screen and (min-width:1351px) and (max-width: 1500px) {
+    .container-one{
+        content:'';
+        background-image: url(../imagens/videos/wwp\ fundo.jpeg);
+        z-index: -99;
+        height: 100vh;
+        width: 100%;
+        background-position:center;
+        background-repeat: repeat-y;
+        background-size: contain;
+    }
+
     /*REDE SOCIAIS*/
     .rede-sociais{
         bottom: 70px;
@@ -701,7 +710,7 @@
         gap:25px;
     }
     .servicos{
-        height: 800px;
+        height: 100dvh;
         width: 100%;
     }
     .formulario{
