@@ -8,7 +8,7 @@ body{
 }
 
 /*DIViÇÕES FLEX*/
-.container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .botao-site, .botao-site a, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
+.container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ body{
     font-size: 20px;
     cursor: pointer;
     position: relative;
-    bottom: 130px;
+    bottom: 121px;
     left: 450px;
     width: 30px;
 }
@@ -111,6 +111,8 @@ body{
     color: rgb(133, 132, 132);
     padding: 11px;
 }
+/*FIM DO CANAL*/
+
 
 /*DIVISÃO INVISIVEL*/
 .invisivel{
@@ -201,6 +203,8 @@ option{
 .solicite-servicos-externo a:hover{
     border-radius: 20px 50px;
 }
+/*FIM DA DIVISÃO INVISIVEL*/
+
 
 /*VIDEO DE FUNDO*/
 video{
@@ -229,10 +233,12 @@ video{
 .menu-interno{
     display: flex;
     gap: 50px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
 }
-.conectores{
+.conectores, .conectores-a{
     text-decoration: none;
     color: white;
     height: 88px;
@@ -241,7 +247,7 @@ video{
     align-items: center;
     cursor: pointer;
 }
-.conectores:hover{
+.conectores-a, .conectores:hover{
     border-bottom: 2px solid rgb(228, 113, 36);
     color: rgb(228, 113, 36);
     transition: color 0.5s ease-in-out;
@@ -249,20 +255,20 @@ video{
 
 /*FRASE E REDES SOCIAIS*/
 .sobre-empresa{
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     position: absolute;
-    background-color: #00000096;
 }
 .frase{
     text-align: center;
     font-size: 60px;
-    padding: 0px 100px;
+    padding: 100px 100px;
     color:  rgb(228, 113, 36);
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.452);
 }
 .frase:hover{
     -webkit-text-stroke: 1px rgb(228, 113, 36);
