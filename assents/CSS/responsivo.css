@@ -700,9 +700,6 @@
         background-repeat: repeat;
         background-size: contain;
     }
-    video{
-        z-index:-1;
-    }
     
     /*REDE SOCIAIS*/
     .rede-sociais{
