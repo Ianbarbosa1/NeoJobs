@@ -7,8 +7,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*DIViÇÕES FLEX*/
-.container-one-canal.abrir, .container-two-canal, .container-interno-canal,.decoracao, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
+/*DIVISÕES FLEX*/
+.container-two-canal, .container-interno-canal,.decoracao, .invisivel, .sair, .escolhas-servicos, .sobre-empresa, .rede-sociais, .insta, .face, .whats, .menu,.sobre-nos, .texto-sobre-nos, .icone, .servicos, .todos-servicos, .feedbacks-one,.feedbacks-two, .feedbacks-tree, .feedbacks-four, .feedbacks-five, .trocas, .formulario, .contatos, .endereco-telefone, .logo-formulario, .formulario-interno, .enviar, footer, .hallo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,8 @@ body{
 }
 .container-one-canal.abrir{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fechar-canal{
     color: white;
@@ -35,7 +37,7 @@ body{
     cursor: pointer;
     position: relative;
     bottom: 121px;
-    left: 450px;
+    left: 237px;
     width: 30px;
 }
 .fechar-canal:hover{
@@ -62,6 +64,7 @@ body{
     font-family:'Montserrat';
     height: 500px;
     width: 500px;
+    flex-direction: column;
 }
 .container-interno-canal h1 {
     font-size: 21px;
@@ -123,6 +126,7 @@ body{
     position: fixed;
     z-index: 99;
     display: none;
+    flex-direction: column;
 }
 .sair{
     height: 32px;
@@ -133,7 +137,7 @@ body{
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
     position: relative;
-    left: 446px ;
+    left: 216px;
     top: 33px;
     z-index: 1;
 }
@@ -313,17 +317,17 @@ video{
 
 
 .container-two{
-    background-color: white;
-    position: relative;
-    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
     width: 100%;
-    bottom: 117px;
 }
 /*SOBRE A EMPRESA*/
 .sobre-nos{
+    padding: 150px 0px;
     height: 100%;
     width: 100%;
     background-color: aliceblue;
+    flex-direction: column;
 }
 .title-sobre-nos,.subtitulo-sobre-nos {
     font-size: 30px;
@@ -344,6 +348,8 @@ video{
     animation: entrada 1ms ease-in-out;
     animation-timeline:view();
     animation-range: cover 0% 40%;
+    font-family: 'Montserrat';
+    font-weight: 450;
 }
 .texto-sobre-nos img{
     height: 400px;
@@ -366,9 +372,11 @@ video{
 
 /*SERVIÇOS*/
 .servicos{
+    padding: 150px 0px;
     height: 100%;
     width: 100%;
     background-color:aliceblue;
+    flex-direction: column;
 }
 .title-servicos{
     font-size: 30px;
@@ -424,6 +432,7 @@ video{
 .botao{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 .botao a {
     text-decoration: none;
@@ -444,7 +453,9 @@ video{
 
 /*FEEDBACKS*/
 .feedbacks-clientes{
+    padding: 0px 0px 190px 0px;
     background-color: aliceblue;
+    flex-direction: column;
 }
 .title-feedbacks{
     font-size: 30px;
@@ -504,9 +515,11 @@ video{
 
 /*FORMULÁRIO*/
 .formulario{
+    padding: 150px 0px;
     background-color: aliceblue;
     height: 100%;
     width: 100%;
+    flex-direction: column;
 }
 .title-formulario{
     font-size: 30px;
@@ -526,14 +539,15 @@ video{
 .logo-formulario{
     width: 538.41px;
     height: 100px;
-    position: absolute;
+    position: relative;
 }
 .logo-formulario img{
     height: 100px;
     filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
 }
 .formulario-interno{
-    height: 600px;
+    height: 500px;
+    flex-direction:column ;
 }
 .formulario-interno input, textarea{
     font-size: 18px;
