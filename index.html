@@ -1,95 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="website icon"  type="png" href="./assents/imagens/img logo (sem fundo).png">
+    <link rel="website icon" type="png" href="./assents/imagens/img logo (sem fundo).png">
     <link rel="stylesheet" href="./assents/CSS/estilos.css">
     <link rel="stylesheet" href="./assents/CSS/responsivo.css">
     <!-- FONTES EXPORTADAS -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Neucha&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Bruno+Ace&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Bruno+Ace&family=Orbitron:wght@400..900&display=swap"rel="stylesheet">
 
     <title>NEOJOBS</title>
 </head>
+
 <body>
-    <section class="container-one-canal" id="canal">
+    <article class="container-one-canal" id="canal">
         <section class="container-two-canal">
             <div class="container-interno-canal">
-                <div> 
-                    <div class="fechar-canal" id="fechar">✖</div>
-                    <div class="decoracao">
-                        <div class="barra-1"></div>
-                        <h1> QUER RECEBER DICAS E PROMOÇÕES SOBRE O MUNDO DA TECNOLOGIA ?! </h1>
-                        <div class="barra-2"></div>
-                    </div>
-                    <p>Entre no nosso canal de ofertas e promoções no WhatsApp! Lá você irá encontrar dicas e ofertas sobre o mundo da tecnologia sempre com produtos de qualidade e em lojas de confiança.</p>
-                    <div class="botao-canal">
-                        <a href="https://www.whatsapp.com/channel/0029Vak3ReF2kNFi9KdrNv0a">
-                            <input type="button" value="ENTRAR NO CANAL">
-                        </a>
-                    </div>
+                <div class="fechar-canal" id="fechar">✖</div>
+                <div class="decoracao">
+                    <div class="barra-1"></div>
+                    <h1> QUER RECEBER DICAS E PROMOÇÕES SOBRE O MUNDO DA TECNOLOGIA ?! </h1>
+                    <div class="barra-2"></div>
+                </div>
+                <p>Entre no nosso canal de ofertas e promoções no WhatsApp! Lá você irá encontrar dicas e ofertas sobre o mundo da tecnologia sempre com produtos de qualidade e em lojas de confiança.</p>
+                <div class="botao-canal">
+                    <a href="https://www.whatsapp.com/channel/0029Vak3ReF2kNFi9KdrNv0a">
+                        <input type="button" value="ENTRAR NO CANAL">
+                    </a>
                 </div>
             </div>
         </section>
-    </section>
+    </article>
 
-    <section class="container-one" id="home">
+    <header class="container-one" id="home">
         <!--DIVISÃO INVISIVEL-->
-        <div class="invisivel">
-            <nav>
-                <div class="sair">✖</div>
-                <div class="solicite-servicos-externo">
-                    <h1>Escolha o serviço que deseja solicitar</h1>
-                    <div class="escolhas-servicos">
-                        <select name="" id="escolha-do-servico" onchange="alter()">
-                            <option value="0">SELECIONE O SERVIÇO</option>
-                            <option value="1">FORMATAÇÃO DE PC</option>
-                            <option value="2">TROCA DE PEÇAS</option>
-                            <option value="3">MONTAGEM DE PC</option>
-                            <option value="4">LIMPEZA INTERNA</option>
-                            <option value="5">LIMPEZA EXTERNA</option>
-                            <option value="6">INSTALAÇÃO DE APLICATIVOS</option>
-                            <option value="7">INSTALAÇÃO DE IMPRESSORA</option>
-                            <option value="8">INSTALAÇÃO DE PACOTE OFFICE</option>
-                            <option value="9">INSTALAÇÃO DE REPETIDOR WIFI</option>
-                            <option value="10">VISITA TÉCNICA</option>
-                        </select>
-                    </div>
-
-                    <div class="nome-do-solicitador">
-                        <input type="text" placeholder="NOME" required id="nome">
-                    </div>    
-                    <div>
-                        <textarea placeholder="Observação" id="obs"></textarea>  
-                    </div>
-                            
-                    <a href="#" id="solicitacao">SOLICITAR</a>
+        <article class="invisivel">
+            <div class="sair">✖</div>
+            <div class="solicite-servicos-externo">
+                <h1>Escolha o serviço que deseja solicitar</h1>
+                <div class="escolhas-servicos">
+                    <select name="" id="escolha-do-servico" onchange="alter()">
+                        <option value="0">SELECIONE O SERVIÇO</option>
+                        <option value="1">FORMATAÇÃO DE PC</option>
+                        <option value="2">TROCA DE PEÇAS</option>
+                        <option value="3">MONTAGEM DE PC</option>
+                        <option value="4">LIMPEZA INTERNA</option>
+                        <option value="5">LIMPEZA EXTERNA</option>
+                        <option value="6">INSTALAÇÃO DE APLICATIVOS</option>
+                        <option value="7">INSTALAÇÃO DE IMPRESSORA</option>
+                        <option value="8">INSTALAÇÃO DE PACOTE OFFICE</option>
+                        <option value="9">INSTALAÇÃO DE REPETIDOR WIFI</option>
+                        <option value="10">VISITA TÉCNICA</option>
+                    </select>
                 </div>
-            </nav>
-        </div>
 
-        <!--MENU--> 
+                <div class="nome-do-solicitador">
+                    <input type="text" placeholder="NOME" required id="nome">
+                </div>
+                <div>
+                    <textarea placeholder="Observação" id="obs"></textarea>
+                </div>
+
+                <a href="#" id="solicitacao">SOLICITAR</a>
+            </div>
+        </article>
+
+        <!--MENU-->
         <nav class="menu">
-            <a href="#home" >
+            <a href="#home">
                 <img src="./assents/imagens/img logo com nome (sem fundo).png" alt="">
             </a>
-           
+
             <div class="menu-interno">
                 <div class="conectores" onclick="openModal()">Canal de Ofertas</div>
 
-                <a href="#curriculo" class="conectores"> 
+                <a href="#curriculo" class="conectores">
                     <div>Envie seu Currículo</div>
-                </a> 
+                </a>
 
                 <div class="conectores-a" id="btn">Solicite Serviços</div>
             </div>
         </nav>
 
         <!--FRASE E REDES SOCIAIS-->
-        <div class="sobre-empresa">
+        <nav class="sobre-empresa">
             <p class="frase">Há 9 anos conectando você ao futuro da informática com excelência e inovação.</p>
 
             <nav class="rede-sociais">
@@ -112,33 +110,27 @@
                     </div>
                 </a>
             </nav>
-        </div>
+        </nav>
 
         <video autoplay loop muted plays-inline class="video">
             <source src="./assents/imagens/videos/wallaper 1080p menor.mp4" type="" id="video">
         </video>
-    </section>
+    </header>
 
-    <section  class="container-two">
+    <main class="container-two">
         <!--SOBRE NÓS-->
-        <div class="sobre-nos"> 
-            <nav>
-                <h1 class="title-sobre-nos">SOBRE NÓS</h1>
-                <p class="subtitulo-sobre-nos">QUEM SOMOS NÓS?</p>
+        <section class="sobre-nos">
+            <h1 class="title-sobre-nos">SOBRE NÓS</h1>
+            <p class="subtitulo-sobre-nos">QUEM SOMOS NÓS?</p>
 
-                <div class="texto-sobre-nos">
-                    <p>
-                        Possuimos 9 anos de experiência no mercado, dedicados a fornecer serviços de upgrade, manutenção, limpeza, instalação e montagem de computadores, impressoras e notebooks. Desde a nossa fundação, somos comprometidos a oferecer soluções de alta qualidade para nossos clientes, garantindo que seus  dispositivos funcionem com a máxima eficiência e desempenho.
-                        Estamos sempre atualizados com as últimas tendências e tecnologias do mercado, garantindo que nossos clientes recebam o melhor suporte possível.
-                        Venha conhecer a NeoJobs e descubra como podemos ajudar a manter seus computadores em perfeito estado. Estamos aqui para ser seu parceiro de confiança em todas as suas necessidades tecnológicas.
-                    </p>
-                    <img src="./assents/imagens/img logo com nome sem fundo vertical.png" alt="">
-                </div>
-            </nav>
-        </div>
+            <div class="texto-sobre-nos">
+                <p> Possuimos 9 anos de experiência no mercado, dedicados a fornecer serviços de upgrade, manutenção, limpeza, instalação e montagem de computadores, impressoras e notebooks. Desde a nossa fundação, somos comprometidos a oferecer soluções de alta qualidade para nossos clientes, garantindo que seus dispositivos funcionem com a máxima eficiência e desempenho. Estamos sempre atualizados com as últimas tendências e tecnologias do mercado, garantindo que nossos clientes recebam o melhor suporte possível. Venha conhecer a <strong>NeoJobs</strong>  e descubra como podemos ajudar a manter seus computadores em perfeito estado. Estamos aqui para ser seu parceiro de confiança em todas as suas necessidades tecnológicas.</p>
+                <img src="./assents/imagens/img logo com nome sem fundo vertical.png" alt="">
+            </div>
+        </section>
 
         <!--ICONES-->
-        <section class="icone"> 
+        <section class="icone">
             <img src="./assents/imagens/templates/pc-icone (SF).png" alt="">
             <img src="./assents/imagens/templates/icone placa-mãe (SF).png" alt="">
             <img src="./assents/imagens/templates/icone-gabinete (SF).png" alt="">
@@ -146,143 +138,141 @@
         </section>
 
         <!--SERVIÇOS-->
-        <div class="servicos">
-            <nav>
-                <h1 class="title-servicos">SERVIÇOS</h1>
-                <div class="todos-servicos">
-                    <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+atendimento+empresarial." > 
-                        <div class="servico">
-                            <img src="./assents/imagens/templates/templete atendimento empresarial.png" alt="">
-                            <h2>ATENDIMENTO EMPRESARIAL</h2>
-                            <span>Encontramos soluções mais flexiveis na infraestrutura de TI, para uma melhor organização dos computadores.</span>
-                            <p>🛠Montagem de computadores</p>
-                            <p>🛠Instalação de aplicativos</p>
-                            <p>🛠Instalação de impressoras</p>
-                        </div>
-                    </a>
+        <section class="servicos">
+            <h1 class="title-servicos">SERVIÇOS</h1>
+            <nav class="todos-servicos">
+                <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+atendimento+empresarial.">
+                    <div class="servico">
+                        <img src="./assents/imagens/templates/templete atendimento empresarial.png" alt="">
+                        <h2>ATENDIMENTO EMPRESARIAL</h2>
+                        <span>Encontramos soluções mais flexiveis na infraestrutura de TI, para uma melhor organização dos computadores.</span>
+                        <p>🛠Montagem de computadores</p>
+                        <p>🛠Instalação de aplicativos</p>
+                        <p>🛠Instalação de impressoras</p>
+                    </div>
+                </a>
 
-                    <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+otimização+lógica." > 
-                        <div class="servico">
-                            <img src="./assents/imagens/templates/templete upgrade pc.png" alt="">
-                            <h2>OTIMIZAÇÃO DE PARTE LÓGICA</h2>
-                            <span>A otimização lógica e muito importante para um bom desempenho dos computadores ou notebooks.</span>
-                            <p>💹Atualização do sistema</p>
-                            <p>💹Atualização de drives </p>
-                            <p>💹Atualizar antivirus</p>
-                        </div> 
-                    </a>
-                    
-                    <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+manutenção+e+suporte+técnico."> 
-                        <div class="servico">
-                            <img src="./assents/imagens/templates/templete manutenção pc.png" alt="">
-                            <h2>MANUTENÇÃO E SUPORTE TÉCNICO</h2>
-                            <span>Suporte técnico especializado para garantir que seus computadores funcionem sem interrupções e com eficiência.</span>
-                            <p>⚙️Troca de peças</p>
-                            <p>⚙️Limpeza externa e interna</p>
-                            <p>⚙️Atendimentos Remotos</p>
-                        </div>
-                    </a>
-                
-                    <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+desenvolvimento+de+midias+sociais."> 
-                        <div class="servico">
-                            <img src="./assents/imagens/templates/templete desenvovimento de midias digitais.png" alt="">
-                            <h2>DESENVOLVIMENTO DE MIDIAS SOCIAIS</h2>
-                            <span>Desenvolvimento e manutenção de Web sites e landing page, com preços acessiveis para a sua empresa.</span>
-                            <p> 👨🏻‍💻Manutenção de sites</p>
-                            <p> 👨🏻‍💻Criação de Sites</p>
-                            <p> 👨🏻‍💻Criação de blogs</p>
-                        </div>   
-                    </a>
-                    
-                </div>
+                <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+otimização+lógica.">
+                    <div class="servico">
+                        <img src="./assents/imagens/templates/templete upgrade pc.png" alt="">
+                        <h2>OTIMIZAÇÃO DE PARTE LÓGICA</h2>
+                        <span>A otimização lógica e muito importante para um bom desempenho dos computadores ou notebooks.</span>
+                        <p>💹Atualização do sistema</p>
+                        <p>💹Atualização de drives </p>
+                        <p>💹Atualizar antivirus</p>
+                    </div>
+                </a>
 
-                <div class="botao">
-                    <a href="https://api.whatsapp.com/send/?phone=5521998303003&text&type=phone_number&app_absent=0">SAIBA MAIS</a> 
-                </div>
+                <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+manutenção+e+suporte+técnico.">
+                    <div class="servico">
+                        <img src="./assents/imagens/templates/templete manutenção pc.png" alt="">
+                        <h2>MANUTENÇÃO E SUPORTE TÉCNICO</h2>
+                        <span>Suporte técnico especializado para garantir que seus computadores funcionem sem interrupções e com eficiência.</span>
+                        <p>⚙️Troca de peças</p>
+                        <p>⚙️Limpeza externa e interna</p>
+                        <p>⚙️Atendimentos Remotos</p>
+                    </div>
+                </a>
+
+                <a href="http://wa.me/5521998303003?text=Olá,+gostaria+de+saber+mais+sobre+o+serviço+de+desenvolvimento+de+midias+sociais.">
+                    <div class="servico">
+                        <img src="./assents/imagens/templates/templete desenvovimento de midias digitais.png" alt="">
+                        <h2>DESENVOLVIMENTO DE MÍDIAS SOCIAIS</h2>
+                        <span>Desenvolvimento e manutenção de Web sites e landing page, com preços acessiveis para a sua empresa.</span>
+                        <p> 👨🏻‍💻Manutenção de sites</p>
+                        <p> 👨🏻‍💻Criação de Sites</p>
+                        <p> 👨🏻‍💻Criação de blogs</p>
+                    </div>
+                </a>
             </nav>
-        </div>
+
+            <div class="botao">
+                <a href="https://api.whatsapp.com/send/?phone=5521998303003&text&type=phone_number&app_absent=0">SAIBA
+                    MAIS</a>
+            </div>
+        </section>
 
         <!--FEEDBACKS-->
-        <div class="feedbacks-clientes"> 
-            <div> 
-                <h1 class="title-feedbacks">FEEDBACKS</h1>
-                <div class="feedbacks-one">
-                    <div class="feed">
-                        <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
-                        <p>Indico pra todos os meus amigos! Honesto e preço justo, sem enrolação.</p>
-                        <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
-                    </div>
-                    <div class="pessoa">
-                        <img src="./assents/imagens/feedbacks/erica.jpg" alt="">
-                        <p>ERICA TAVARES</p>
-                        <a href="https://www.threads.net/@ericatmelo?xmt=AQGzzUTxBau4TVmOrvEhRwhN56maHgE_BiQd_jUKzPus3SQ" class="arroba">@ericatmelo</a>
-                    </div>
+        <section class="feedbacks-clientes">
+            <h1 class="title-feedbacks">FEEDBACKS</h1>
+            <section class="feedbacks-one">
+                <div class="feed">
+                    <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
+                    <p>Indico pra todos os meus amigos! Honesto e preço justo, sem enrolação.</p>
+                    <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
                 </div>
-
-                <div class="feedbacks-two">
-                    <div class="feed">
-                        <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
-                        <p>Empresa séria e competente. Dedicação total aos seus clientes, se eu recomendo? Com certeza!</p>
-                        <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
-                    </div>
-                    <div class="pessoa">
-                        <img src="./assents/imagens/feedbacks/romario.jpg" alt="">
-                        <p>ROMARIO NEVES</p>
-                        <a href="https://www.instagram.com/romario_neves/" class="arroba">@romario_neves</a>
-                    </div>
+                <div class="pessoa">
+                    <img src="./assents/imagens/feedbacks/erica.jpg" alt="">
+                    <p>ERICA TAVARES</p>
+                    <a href="https://www.threads.net/@ericatmelo?xmt=AQGzzUTxBau4TVmOrvEhRwhN56maHgE_BiQd_jUKzPus3SQ"class="arroba">@ericatmelo</a>
                 </div>
+            </section>
 
-                <div class="feedbacks-tree">
-                    <div class="feed">
-                        <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
-                        <p>Você pede o que precisa e ainda ganha muito mais, um ótimo atendimento. Nesta região não achei ninguém que eu possa confiar a não ser a NeoJobs.</p>
-                        <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
-                    </div>
-                    <div class="pessoa">
-                        <img src="./assents/imagens/feedbacks/gabriel.jpg" alt="">
-                        <p>GABRIEL MATOS</p>
-                        <a href="https://www.instagram.com/gm_attos/" class="arroba">@gm_attos</a>
-                    </div>
+            <section class="feedbacks-two">
+                <div class="feed">
+                    <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
+                    <p>Empresa séria e competente. Dedicação total aos seus clientes, se eu recomendo? Com certeza!
+                    </p>
+                    <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
                 </div>
-
-                <div class="feedbacks-four">
-                    <div class="feed">
-                        <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
-                        <p>Serviço de confiança, qualidade e que cabe no seu bolso, recomendo 100%.</p>
-                        <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
-                    </div>
-                    <div class="pessoa">
-                        <img src="./assents/imagens/feedbacks/iago.jpg" alt="">
-                        <p>IAGO DAUMAS</p>
-                        <a href="https://www.instagram.com/iagodaumas/" class="arroba">@iagodaumas</a>
-                    </div>
+                <div class="pessoa">
+                    <img src="./assents/imagens/feedbacks/romario.jpg" alt="">
+                    <p>ROMARIO NEVES</p>
+                    <a href="https://www.instagram.com/romario_neves/" class="arroba">@romario_neves</a>
                 </div>
+            </section>
 
-                <div class="feedbacks-five">
-                    <div class="feed">
-                        <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
-                        <p>Recomendo muito! Empresa de muita responsabilidade com os serviços e clientes.</p>
-                        <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
-                    </div>
-                    <div class="pessoa">
-                        <img src="./assents/imagens/feedbacks/cibele.jpg" alt="">
-                        <p>CIBELE CLASS</p>
-                        <a href="https://www.instagram.com/cibeleclass/" class="arroba">@cibele</a>
-                    </div>
+            <section class="feedbacks-tree">
+                <div class="feed">
+                    <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
+                    <p>Você pede o que precisa e ainda ganha muito mais, um ótimo atendimento. Nesta região não
+                        achei ninguém que eu possa confiar a não ser a NeoJobs.</p>
+                    <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
                 </div>
-            </div>
+                <div class="pessoa">
+                    <img src="./assents/imagens/feedbacks/gabriel.jpg" alt="">
+                    <p>GABRIEL MATOS</p>
+                    <a href="https://www.instagram.com/gm_attos/" class="arroba">@gm_attos</a>
+                </div>
+            </section>
 
-            <div class="trocas">
+            <section class="feedbacks-four">
+                <div class="feed">
+                    <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
+                    <p>Serviço de confiança, qualidade e que cabe no seu bolso, recomendo 100%.</p>
+                    <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
+                </div>
+                <div class="pessoa">
+                    <img src="./assents/imagens/feedbacks/iago.jpg" alt="">
+                    <p>IAGO DAUMAS</p>
+                    <a href="https://www.instagram.com/iagodaumas/" class="arroba">@iagodaumas</a>
+                </div>
+            </section>
+
+            <section class="feedbacks-five">
+                <div class="feed">
+                    <img src="./assents/imagens/templates/aspas-cima.png" class="feed1">
+                    <p>Recomendo muito! Empresa de muita responsabilidade com os serviços e clientes.</p>
+                    <img src="./assents/imagens/templates/aspas-baixo.png" class="feed2">
+                </div>
+                <div class="pessoa">
+                    <img src="./assents/imagens/feedbacks/cibele.jpg" alt="">
+                    <p>CIBELE CLASS</p>
+                    <a href="https://www.instagram.com/cibeleclass/" class="arroba">@cibele</a>
+                </div>
+            </section>
+
+            <section class="trocas">
                 <nav class="b1"></nav>
                 <nav class="b2"></nav>
                 <nav class="b3"></nav>
                 <nav class="b4"></nav>
                 <nav class="b5"></nav>
-            </div>
-        </div>
+            </section>
+        </section>
 
         <!--ICONES-->
-        <section class="icone"> 
+        <section class="icone">
             <img src="./assents/imagens/templates/icone-gabinete (SF).png" alt="">
             <img src="./assents/imagens/templates/pc-icone (SF).png" alt="">
             <img src="./assents/imagens/templates/icone-cpu (SF).png" alt="">
@@ -290,70 +280,69 @@
         </section>
 
         <!--FORMULÁRIO-->
-        <div class="formulario" id="curriculo"> 
-            <div>
-                <h1 class="title-formulario">ENVIE SEU CURRÍCULO PARA NÓS</h1>
-                <nav class="contatos">
-                    <div class="endereco-telefone">
-                        <img src="./assents/imagens/templates/carta.png" alt="">
-                        <p>neojobsbr@gmail.com</p>
-                    </div>
-                </nav>
-
-                <div class="logo-formulario"> 
-                    <a href="#home">
-                        <img src="./assents/imagens/img logo (sem fundo).png" alt="">
-                    </a>
+        <section class="formulario" id="curriculo">
+            <h1 class="title-formulario">ENVIE SEU CURRÍCULO PARA NÓS</h1>
+            <nav class="contatos">
+                <div class="endereco-telefone">
+                    <img src="./assents/imagens/templates/carta.png" alt="">
+                    <p>neojobsbr@gmail.com</p>
                 </div>
+            </nav>
 
-                <form action="https://formsubmit.co/neojobsbr@gmail.com" method="POST" enctype="multipart/form-data">
-                    <nav class="formulario-interno"> 
-                        <div> 
-                            <div class="nome"> 
-                                <input type="text" name="nome" required placeholder="NOME">
-                            </div>
+            <section class="logo-formulario">
+                <a href="#home">
+                    <img src="./assents/imagens/img logo (sem fundo).png" alt="">
+                </a>
+            </section>
 
-                            <div class="email"> 
-                                <input type="email" name="email" required placeholder="EMAIL">
-                            </div>
+            <form action="https://formsubmit.co/neojobsbr@gmail.com" method="POST" enctype="multipart/form-data">
+                <div class="formulario-interno">
+                    <div class="nome">
+                        <input type="text" name="nome" required placeholder="NOME">
+                    </div>
 
-                            <div class="texto"> 
-                                <textarea name="Vaga Requerida" id="" placeholder="Descrição: Ex: vaga requerida" class="texto"></textarea>
-                            </div>
+                    <div class="email">
+                        <input type="email" name="email" required placeholder="EMAIL">
+                    </div>
 
-                            <div class="pasta"> 
-                                <input type="file" name="arquivo" required>
-                            </div>
-                            
-                            
-                            <input type="hidden" name="_next" value="http://neojobs.com.br/assents/agradecimento/index.html">
-                            <input type="hidden" name="_captcha" value="false">
+                    <div class="texto">
+                        <textarea name="Vaga Requerida" id="" placeholder="Descrição: Ex: vaga requerida"
+                            class="texto"></textarea>
+                    </div>
 
-                            <nav class="enviar">
-                             <button type="submit">ENVIAR</button>   
-                            </nav>
-                        </div>
+                    <div class="pasta">
+                        <input type="file" name="arquivo" required>
+                    </div>
+
+
+                    <input type="hidden" name="_next" value="http://neojobs.com.br/assents/agradecimento/index.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <nav class="enviar">
+                        <button type="submit">ENVIAR</button>
                     </nav>
-               </form>
-            </div>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="./assents/imagens/img logo com nome fundo preto.png" alt="">
+        <div class="barra"></div>
+        <div>
+            <p>CNPJ: 22.558.561/0001-43</p>
+            <P>RJ - Brasil</P>
+            <p>© Todos os direitos reservados</p>
+            <p>Atendimentos: Itaboraí, São Gonçalo, Niterói e Rio de Janeiro.</p>
         </div>
 
-        <footer>
-            <img src="./assents/imagens/img logo com nome fundo preto.png" alt="">
-            <div class="barra"></div>
-            <div>
-                <p>CNPJ: 22.558.561/0001-43</p>
-                <P>RJ - Brasil</P>
-                <p>© Todos os direitos reservados</p>
-                <p>Atendimentos: Itaboraí, São Gonçalo, Niterói e Rio de Janeiro.</p>
-            </div>
-            
-            <div class="hallo">
-                <p>Ian Barbosa</p>
-            </div>
-        </footer>
-    </section>
+        <div class="hallo">
+            <p>Ian Barbosa</p>
+        </div>
+    </footer>
 
     <script src="./assents/script/script.js"></script>
 </body>
+
 </html>
