@@ -2,7 +2,7 @@
     /*CANAL*/
     .fechar-canal{
         bottom: 30px;
-        left: 300px;
+        left: 160px;
     }
     /*IMAGEM DE FUNDO*/
     .container-two-canal{
@@ -27,7 +27,7 @@
         width: 350px;
     }
     .sair{
-        left: 316px ;
+        left: 156px;
         top: 33px;
     }
     
@@ -202,13 +202,19 @@
         padding-right:5px ;
         margin-top: 150px;
     }
+    .formulario{
+        padding: 50px 0px;
+    }
+    .logo-formulario{
+        top: 15px;
+    }
 }
 
 @media screen and (min-width:451px) and (max-width: 550px){
     /*CANAL*/
     .fechar-canal{
         bottom: 48px;
-        left: 350px;
+        left: 185px;
     }
 
     /*IMAGEM DE FUNDO*/
@@ -228,7 +234,7 @@
         width: 430px;
     }
     .sair{
-        left: 396px ;
+        left: 196px;
         top: 33px;
     }
     
@@ -392,6 +398,9 @@
         font-size: 15px;
         margin-top: 150px;
     }
+    .formulario{
+        padding: 50px 0px;
+    }
 }
 
 @media screen and (min-width:551px) and (max-width: 700px){ 
@@ -411,8 +420,8 @@
         margin-left:0px;
     }
     .menu-interno{
-        gap: 15px;
-        font-size: 13px;
+        gap: 10px;
+        font-size: 11px;
     }
     video{
         z-index: 0;
@@ -462,7 +471,7 @@
 
     /*SERVIÇOS*/
     .servicos{
-        height: 1200px;
+        height: 1250px;
         width: 100%;
     }
     .todos-servicos{
@@ -501,6 +510,9 @@
     .hallo{
         margin-top: 240px;
     }
+    .formulario{
+        padding: 50px 0px;
+    }
 }
 
 @media screen and (min-width:701px) and (max-width: 1000px) {
@@ -531,7 +543,7 @@
     }
     .menu-interno{
         gap: 25px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .sobre-empresa{
@@ -551,7 +563,7 @@
     }
 
     .container-two{
-        height: 1200px;
+        height: 100%;
         width: 100%;
     }
 
@@ -579,7 +591,7 @@
 
     /*SERVIÇOS*/
     .servicos{
-        height: 1200px;
+        height: 1250px;
         width: 100%;
     }
     .todos-servicos{
@@ -619,6 +631,9 @@
     .formulario{
         height: 800px;
     }
+    .logo-formulario{
+        top: 15px;
+    }
     .hallo{
         margin-top: 240px;
     }
@@ -656,13 +671,13 @@
 
     /*SOBRE A EMPRESA*/
     .sobre-nos{
-    height: 600px;
-    width: 100%;
+        height: 600px;
+        width: 100%;
     } 
 
     /*SERVIÇOS*/
     .servicos{
-        height: 800px;
+        height: 850px;
         width: 100%;
     }
     .todos-servicos{
@@ -686,6 +701,9 @@
     .formulario{
         height: 750px;
     }
+    .logo-formulario{
+        top: 15px;
+    }
 }
 
 @media screen and (min-width:1351px) and (max-width: 1500px) {
@@ -693,14 +711,13 @@
         content:'';
         position: relative;
         background-image: url(../imagens/videos/wwp\ fundo.jpeg);
-        z-index: -5;
+        z-index: -1;
         height: 100vh;
         width: 100%;
         background-position:center;
         background-repeat: repeat;
         background-size: contain;
     }
-    
     /*REDE SOCIAIS*/
     .rede-sociais{
         bottom: 20px;
@@ -713,38 +730,13 @@
         height: 100dvh;
         width: 100%;
     }
+    .logo-formulario{
+        top: 15px;
+    }
     .formulario{
         height: 750px;
     }
-}
-
-@media screen and (min-width:1501px) and (max-width: 1650px) {
-    /*REDES SOCIAIS*/
-    .rede-sociais{
-        bottom: 50px;
-    }
-}
-
-@media screen and (min-width:350px) and (max-width: 1700px) {
-    .container-two{
-        bottom: 3px;
-    }
-}
-
-@media screen and (min-width:1701px) and (max-width: 1800px) {
-    .container-two{
-        bottom:27px;
-    }
-}
-
-@media screen and (min-width:1801px) and (max-width: 1900px) {
-    .container-two{
-        bottom: 87px;
-    }
-}
-
-@media screen and (min-width:1901px) and (max-width: 2230px) {
-    .container-two{
-        bottom: 104px;
+    .formulario-interno{
+        height: 400px;
     }
 }
